@@ -1,0 +1,16 @@
+{
+  "name": "noemy-studio-waitlist",
+  "version": "1.0.0",
+  "description": "Lista de espera para Noemy Studio",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4"
+  }
+}

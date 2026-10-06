@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#eef9f6">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20role%3D%22img%22%20aria-label%3D%22Noemy%20Studio%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22nsBg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23e6f7f3%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23fce8ec%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22nsHair%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%235eead4%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%2314b8a6%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230d9488%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath%20id%3D%22nsClip%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22url(%23nsBg)%22%2F%3E%3Cg%20clip-path%3D%22url(%23nsClip)%22%3E%3Cpath%20d%3D%22M47%2022C42%2024%2039%2030%2039%2036C39%2038%2038%2040%2036.5%2042L32.5%2048.5C32%2049.5%2033%2050.5%2034.5%2050.5L36%2050.8C35.6%2052%2035.8%2053%2036.6%2053.4C35.8%2054.2%2035.9%2055.6%2037%2056.2C37.5%2057%2037.4%2058%2038.2%2059C38%2061%2038.6%2063.5%2040.5%2064.5C43%2065.5%2046%2065%2047.5%2064.5L48%2076C46%2082%2038%2088%2028%2092L20%20104L62%20104L62%2026Z%22%20fill%3D%22%23115e59%22%2F%3E%3Cpath%20d%3D%22M47%2022C50%2014%2060%2010%2070%2013C82%2017%2088%2030%2085%2042C83%2050%2088%2056%2087%2064C86%2072%2080%2076%2082%2084C84%2092%2080%2098%2076%20104L50%20104C56%2096%2058%2088%2057%2080C56%2072%2058%2066%2058%2060C58%2050%2054%2042%2052%2034C51%2029%2049%2025%2047%2022Z%22%20fill%3D%22url(%23nsHair)%22%2F%3E%3Cpath%20d%3D%22M49%2020.5C43.5%2021.5%2040%2026.5%2040.5%2031.5C44%2027%2050%2024.8%2057%2026.5C55%2022.5%2052%2020.5%2049%2020.5Z%22%20fill%3D%22url(%23nsHair)%22%2F%3E%3Cpath%20d%3D%22M60%2016C73%2018%2080%2029%2078%2041C76%2051%2082%2059%2080%2069C79%2078%2075%2086%2077%2097%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.55%22%2F%3E%3Cpath%20d%3D%22M55%2023C64%2027%2068%2036%2066.5%2046C65%2056%2070%2064%2068%2076C67%2084%2064%2090%2065%2098%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%22.8%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.4%22%2F%3E%3Cpath%20d%3D%22M40.2%2041.2q2.2%201.5%204.6%20.3%22%20fill%3D%22none%22%20stroke%3D%22%23e6f7f3%22%20stroke-width%3D%221%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M22%2026l1.2%203.3%203.3%201.2-3.3%201.2-1.2%203.3-1.2-3.3-3.3-1.2%203.3-1.2Z%22%20fill%3D%22%23f4a7b9%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+<title>Noemy Studio · Lista de espera</title>
+<style>
+  :root {
+    --bg: #fbf9f7; --surface: #ffffff; --surface-2: #f6f9f8; --border: #e6ecea;
+    --text: #2b3a3a; --muted: #7d8c8b;
+    --accent: #14b8a6; --accent-strong: #0d9488; --accent-deep: #0f766e; --accent-soft: #e6f7f3;
+    --blush: #fce8ec; --blush-strong: #d9738c;
+    --ok-bg: #e3f6ec; --ok: #2f8f63; --warn-bg: #fdf3e1; --warn: #a86a17; --danger: #cf4f6b;
+    --shadow: 0 12px 32px rgba(15, 118, 110, .08);
+    --serif: Georgia, "Times New Roman", serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(180deg, #eaf8f5 0%, var(--bg) 38%, #fdf3f5 100%) fixed;
+    color: var(--text); min-height: 100vh; padding: 28px 16px 48px;
+  }
+  .wrap { max-width: 440px; margin: 0 auto; }
+
+  /* Bienvenida */
+  .hero { text-align: center; margin-bottom: 26px; }
+  .logo {
+    width: 124px; height: 124px; border-radius: 50%; margin: 0 auto 18px; overflow: hidden;
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, .9), 0 14px 40px rgba(20, 184, 166, .22);
+  }
+  .logo svg { width: 100%; height: 100%; display: block; }
+  .eyebrow { font-size: 12px; letter-spacing: .32em; text-transform: uppercase; color: var(--accent-strong); }
+  h1 { font-family: var(--serif); font-weight: 400; font-size: 36px; letter-spacing: .02em; margin: 6px 0 10px; }
+  .tagline { font-family: var(--serif); font-style: italic; font-size: 19px; color: var(--blush-strong); }
+  .divider { width: 46px; height: 1px; background: var(--accent); opacity: .5; margin: 16px auto; }
+  .intro { color: var(--muted); font-size: 15px; line-height: 1.55; max-width: 340px; margin: 0 auto; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 20px;
+    padding: 24px; margin-bottom: 16px; box-shadow: var(--shadow);
+  }
+  .card-title { font-family: var(--serif); font-size: 20px; font-weight: 400; margin-bottom: 16px; }
+  .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  .stat { background: rgba(255, 255, 255, .75); border: 1px solid var(--border); border-radius: 16px; padding: 14px; text-align: center; }
+  .stat b { display: block; font-size: 24px; font-weight: 600; color: var(--accent-deep); }
+  .stat span { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .12em; }
+
+  label { display: block; font-size: 13px; color: var(--muted); margin: 14px 0 6px; }
+  label:first-of-type { margin-top: 0; }
+  input, select {
+    width: 100%; padding: 14px; font-size: 16px; color: var(--text);
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 12px; outline: none;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  input::placeholder { color: #a9b6b4; }
+  input:focus, select:focus { border-color: var(--accent); background: #fff; box-shadow: 0 0 0 4px rgba(20, 184, 166, .14); }
+  button {
+    width: 100%; padding: 15px; margin-top: 22px; font-size: 16px; font-weight: 600; letter-spacing: .02em;
+    background: var(--accent-strong); color: #fff; border: 0; border-radius: 999px; cursor: pointer;
+    box-shadow: 0 8px 20px rgba(13, 148, 136, .25); transition: background .15s, transform .1s;
+  }
+  button:hover { background: var(--accent-deep); }
+  button:active { transform: scale(.98); }
+  button:disabled { opacity: .6; cursor: default; }
+  button.ghost { background: transparent; border: 1px solid var(--border); color: var(--muted); box-shadow: none; }
+  button.ghost:hover { border-color: var(--danger); color: var(--danger); }
+  .error { color: var(--danger); font-size: 14px; margin-top: 12px; min-height: 18px; text-align: center; }
+
+  /* Turno */
+  .ticket { text-align: center; }
+  .ticket .label { color: var(--muted); font-size: 13px; letter-spacing: .14em; text-transform: uppercase; }
+  .ticket .pos { font-family: var(--serif); font-size: 88px; line-height: 1.1; color: var(--accent-deep); margin: 10px 0 6px; }
+  .ticket .name { font-size: 18px; font-weight: 600; }
+  .badge { display: inline-block; padding: 7px 16px; border-radius: 99px; font-size: 13px; font-weight: 600; margin-top: 14px; }
+  .badge.waiting { background: var(--warn-bg); color: var(--warn); }
+  .badge.serving { background: var(--ok-bg); color: var(--ok); }
+  .badge.done { background: var(--blush); color: var(--blush-strong); }
+  .called { animation: glow 1.8s infinite; border-color: rgba(20, 184, 166, .5); }
+  @keyframes glow { 0%, 100% { box-shadow: 0 0 0 0 rgba(20, 184, 166, .35); } 50% { box-shadow: 0 0 0 14px rgba(20, 184, 166, 0); } }
+
+  /* QR */
+  .qr { text-align: center; background: linear-gradient(160deg, #ffffff 0%, var(--accent-soft) 100%); }
+  .qr .card-title { margin-bottom: 4px; }
+  .qr p { color: var(--muted); font-size: 14px; line-height: 1.5; }
+  .qr .frame { display: inline-block; padding: 12px; margin: 16px 0 12px; background: #fff; border-radius: 18px; border: 1px solid var(--border); box-shadow: 0 6px 18px rgba(15, 118, 110, .08); }
+  .qr img { display: block; width: 176px; height: 176px; }
+  .hidden { display: none; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 26px; letter-spacing: .04em; }
+  footer span { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="logo"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Noemy Studio"><defs><linearGradient id="nsBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f7f3"/><stop offset="1" stop-color="#fce8ec"/></linearGradient><linearGradient id="nsHair" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset=".55" stop-color="#14b8a6"/><stop offset="1" stop-color="#0d9488"/></linearGradient><clipPath id="nsClip"><circle cx="50" cy="50" r="50"/></clipPath></defs><circle cx="50" cy="50" r="50" fill="url(#nsBg)"/><g clip-path="url(#nsClip)"><path d="M47 22C42 24 39 30 39 36C39 38 38 40 36.5 42L32.5 48.5C32 49.5 33 50.5 34.5 50.5L36 50.8C35.6 52 35.8 53 36.6 53.4C35.8 54.2 35.9 55.6 37 56.2C37.5 57 37.4 58 38.2 59C38 61 38.6 63.5 40.5 64.5C43 65.5 46 65 47.5 64.5L48 76C46 82 38 88 28 92L20 104L62 104L62 26Z" fill="#115e59"/><path d="M47 22C50 14 60 10 70 13C82 17 88 30 85 42C83 50 88 56 87 64C86 72 80 76 82 84C84 92 80 98 76 104L50 104C56 96 58 88 57 80C56 72 58 66 58 60C58 50 54 42 52 34C51 29 49 25 47 22Z" fill="url(#nsHair)"/><path d="M49 20.5C43.5 21.5 40 26.5 40.5 31.5C44 27 50 24.8 57 26.5C55 22.5 52 20.5 49 20.5Z" fill="url(#nsHair)"/><path d="M60 16C73 18 80 29 78 41C76 51 82 59 80 69C79 78 75 86 77 97" fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round" opacity=".55"/><path d="M55 23C64 27 68 36 66.5 46C65 56 70 64 68 76C67 84 64 90 65 98" fill="none" stroke="#fff" stroke-width=".8" stroke-linecap="round" opacity=".4"/><path d="M40.2 41.2q2.2 1.5 4.6 .3" fill="none" stroke="#e6f7f3" stroke-width="1" stroke-linecap="round"/><path d="M22 26l1.2 3.3 3.3 1.2-3.3 1.2-1.2 3.3-1.2-3.3-3.3-1.2 3.3-1.2Z" fill="#f4a7b9"/></g></svg></div>
+    <div class="eyebrow">Te damos la bienvenida a</div>
+    <h1>Noemy Studio</h1>
+    <p class="tagline">Donde tu belleza comienza</p>
+    <div class="divider"></div>
+    <p class="intro">Reserva tu lugar en la lista de espera y relájate. Te avisamos aquí mismo en cuanto sea tu turno.</p>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><b id="sWaiting">0</b><span>En espera</span></div>
+    <div class="stat"><b id="sAvg">–</b><span>Espera prom.</span></div>
+  </div>
+
+  <!-- Formulario -->
+  <div id="joinView" class="card hidden">
+    <h2 class="card-title">Reserva tu lugar</h2>
+    <form id="joinForm">
+      <label for="name">Nombre *</label>
+      <input id="name" name="name" maxlength="50" autocomplete="name" placeholder="¿Cómo te llamas?" required>
+
+      <label for="phone">Teléfono (opcional)</label>
+      <input id="phone" name="phone" type="tel" maxlength="20" autocomplete="tel" placeholder="Ej. 555 123 4567">
+
+      <label for="partySize">¿Cuántas personas?</label>
+      <select id="partySize" name="partySize"></select>
+
+      <button type="submit" id="joinBtn">Unirme a la lista</button>
+      <div class="error" id="error"></div>
+    </form>
+  </div>
+
+  <!-- Turno -->
+  <div id="ticketView" class="card ticket hidden">
+    <div class="label" id="tLabel">Tu posición</div>
+    <div class="pos" id="tPos">–</div>
+    <div class="name" id="tName"></div>
+    <div class="badge" id="tBadge"></div>
+    <button class="ghost" id="leaveBtn">Salir de la lista</button>
+  </div>
+
+  <div class="card qr">
+    <h2 class="card-title">¿Vienes con alguien más?</h2>
+    <p>Comparte este código: quien lo escanee con su teléfono podrá unirse a la lista.</p>
+    <div class="frame"><img id="qrImg" alt="Código QR para unirse a la lista de Noemy Studio"></div>
+  </div>
+
+  <footer>Noemy Studio <span>✦</span> Salón de Belleza</footer>
+</div>
+
+<script>
+  const STORAGE_KEY = 'noemy_ticket_id';
+  const $ = id => document.getElementById(id);
+
+  function getTicket() { try { return localStorage.getItem(STORAGE_KEY); } catch { return null; } }
+  function setTicket(id) { try { id ? localStorage.setItem(STORAGE_KEY, id) : localStorage.removeItem(STORAGE_KEY); } catch {} }
+
+  for (let i = 1; i <= 10; i++) {
+    const o = document.createElement('option');
+    o.value = i; o.textContent = i === 1 ? '1 persona' : i + ' personas';
+    $('partySize').appendChild(o);
+  }
+
+  function showJoin() { $('joinView').classList.remove('hidden'); $('ticketView').classList.add('hidden'); }
+  function showTicket() { $('joinView').classList.add('hidden'); $('ticketView').classList.remove('hidden'); }
+
+  function renderStats(s) {
+    $('sWaiting').textContent = s.waiting;
+    $('sAvg').textContent = s.avgWaitMinutes ? s.avgWaitMinutes + ' min' : '–';
+  }
+
+  function renderTicket(t) {
+    showTicket();
+    $('tName').textContent = t.name + ' · ' + t.partySize + (t.partySize === 1 ? ' persona' : ' personas');
+    const badge = $('tBadge');
+    $('ticketView').classList.toggle('called', t.status === 'serving');
+    $('leaveBtn').classList.toggle('hidden', t.status !== 'waiting');
+    if (t.status === 'waiting') {
+      $('tLabel').textContent = 'Tu lugar en la lista';
+      $('tPos').textContent = '#' + t.position;
+      badge.className = 'badge waiting';
+      badge.textContent = t.position === 1 ? '¡Sigues tú!' : 'En espera';
+    } else if (t.status === 'serving') {
+      $('tLabel').textContent = '¡Es tu turno!';
+      $('tPos').textContent = '✦';
+      badge.className = 'badge serving';
+      badge.textContent = 'Te estamos atendiendo';
+    } else {
+      $('tLabel').textContent = 'Gracias por tu visita';
+      $('tPos').textContent = '♡';
+      badge.className = 'badge done';
+      badge.textContent = 'Esperamos verte pronto';
+      $('leaveBtn').classList.remove('hidden');
+      $('leaveBtn').textContent = 'Unirme de nuevo';
+    }
+  }
+
+  async function refresh() {
+    const id = getTicket();
+    try {
+      if (id) {
+        const r = await fetch('/api/status/' + encodeURIComponent(id));
+        if (r.ok) {
+          const t = await r.json();
+          renderTicket(t);
+          renderStats(t.stats);
+          return;
+        }
+        setTicket(null); // el turno ya no existe
+      }
+      const q = await (await fetch('/api/queue')).json();
+      renderStats(q.stats);
+      if ($('joinView').classList.contains('hidden')) showJoin();
+    } catch (e) { /* sin conexión: reintenta en el próximo ciclo */ }
+  }
+
+  $('joinForm').addEventListener('submit', async e => {
+    e.preventDefault();
+    $('error').textContent = '';
+    $('joinBtn').disabled = true;
+    try {
+      const r = await fetch('/api/join', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name: $('name').value, phone: $('phone').value, partySize: $('partySize').value }),
+      });
+      const data = await r.json();
+      if (!r.ok) throw new Error(data.error || 'Error al unirse');
+      setTicket(data.id);
+      $('joinForm').reset();
+      await refresh();
+    } catch (err) {
+      $('error').textContent = err.message;
+    } finally {
+      $('joinBtn').disabled = false;
+    }
+  });
+
+  $('leaveBtn').addEventListener('click', async () => {
+    const id = getTicket();
+    const isDone = $('tBadge').classList.contains('done');
+    if (!isDone && !confirm('¿Seguro que quieres salir de la lista?')) return;
+    if (id && !isDone) await fetch('/api/status/' + encodeURIComponent(id), { method: 'DELETE' }).catch(() => {});
+    setTicket(null);
+    $('leaveBtn').textContent = 'Salir de la lista';
+    showJoin();
+    refresh();
+  });
+
+  fetch('/api/qr').then(r => r.json()).then(d => { $('qrImg').src = d.dataUrl; }).catch(() => {});
+
+  refresh();
+  setInterval(refresh, 3000);
+</script>
+</body>
+</html>

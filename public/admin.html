@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20100%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20role%3D%22img%22%20aria-label%3D%22Noemy%20Studio%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22nsBg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23e6f7f3%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23fce8ec%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22nsHair%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%235eead4%22%2F%3E%3Cstop%20offset%3D%22.55%22%20stop-color%3D%22%2314b8a6%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230d9488%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath%20id%3D%22nsClip%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22url(%23nsBg)%22%2F%3E%3Cg%20clip-path%3D%22url(%23nsClip)%22%3E%3Cpath%20d%3D%22M47%2022C42%2024%2039%2030%2039%2036C39%2038%2038%2040%2036.5%2042L32.5%2048.5C32%2049.5%2033%2050.5%2034.5%2050.5L36%2050.8C35.6%2052%2035.8%2053%2036.6%2053.4C35.8%2054.2%2035.9%2055.6%2037%2056.2C37.5%2057%2037.4%2058%2038.2%2059C38%2061%2038.6%2063.5%2040.5%2064.5C43%2065.5%2046%2065%2047.5%2064.5L48%2076C46%2082%2038%2088%2028%2092L20%20104L62%20104L62%2026Z%22%20fill%3D%22%23115e59%22%2F%3E%3Cpath%20d%3D%22M47%2022C50%2014%2060%2010%2070%2013C82%2017%2088%2030%2085%2042C83%2050%2088%2056%2087%2064C86%2072%2080%2076%2082%2084C84%2092%2080%2098%2076%20104L50%20104C56%2096%2058%2088%2057%2080C56%2072%2058%2066%2058%2060C58%2050%2054%2042%2052%2034C51%2029%2049%2025%2047%2022Z%22%20fill%3D%22url(%23nsHair)%22%2F%3E%3Cpath%20d%3D%22M49%2020.5C43.5%2021.5%2040%2026.5%2040.5%2031.5C44%2027%2050%2024.8%2057%2026.5C55%2022.5%2052%2020.5%2049%2020.5Z%22%20fill%3D%22url(%23nsHair)%22%2F%3E%3Cpath%20d%3D%22M60%2016C73%2018%2080%2029%2078%2041C76%2051%2082%2059%2080%2069C79%2078%2075%2086%2077%2097%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.55%22%2F%3E%3Cpath%20d%3D%22M55%2023C64%2027%2068%2036%2066.5%2046C65%2056%2070%2064%2068%2076C67%2084%2064%2090%2065%2098%22%20fill%3D%22none%22%20stroke%3D%22%23fff%22%20stroke-width%3D%22.8%22%20stroke-linecap%3D%22round%22%20opacity%3D%22.4%22%2F%3E%3Cpath%20d%3D%22M40.2%2041.2q2.2%201.5%204.6%20.3%22%20fill%3D%22none%22%20stroke%3D%22%23e6f7f3%22%20stroke-width%3D%221%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M22%2026l1.2%203.3%203.3%201.2-3.3%201.2-1.2%203.3-1.2-3.3-3.3-1.2%203.3-1.2Z%22%20fill%3D%22%23f4a7b9%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+<title>Noemy Studio · Administración</title>
+<style>
+  :root {
+    --bg: #fbf9f7; --surface: #ffffff; --surface-2: #f6f9f8; --border: #e6ecea;
+    --text: #2b3a3a; --muted: #7d8c8b;
+    --accent: #14b8a6; --accent-strong: #0d9488; --accent-deep: #0f766e; --accent-soft: #e6f7f3;
+    --blush: #fce8ec; --blush-strong: #d9738c;
+    --ok-bg: #e3f6ec; --ok: #2f8f63; --warn-bg: #fdf3e1; --warn: #a86a17; --danger: #cf4f6b;
+    --shadow: 0 12px 32px rgba(15, 118, 110, .07);
+    --serif: Georgia, "Times New Roman", serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+  .hidden { display: none !important; }
+  .logo { border-radius: 50%; overflow: hidden; flex-shrink: 0; }
+  .logo svg { width: 100%; height: 100%; display: block; }
+
+  /* Acceso */
+  .login { min-height: 100vh; display: grid; place-items: center; padding: 16px; background: linear-gradient(160deg, #eaf8f5 0%, var(--bg) 50%, #fdf3f5 100%); }
+  .login-box { width: 100%; max-width: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: 22px; padding: 32px 28px; text-align: center; box-shadow: var(--shadow); }
+  .login-box .logo { width: 92px; height: 92px; margin: 0 auto 16px; box-shadow: 0 0 0 5px #fff, 0 10px 30px rgba(20, 184, 166, .2); }
+  .login-box h1 { font-family: var(--serif); font-weight: 400; font-size: 26px; }
+  .login-box p { color: var(--muted); font-size: 13px; letter-spacing: .2em; text-transform: uppercase; margin: 6px 0 22px; }
+  input { width: 100%; padding: 14px; font-size: 16px; color: var(--text); background: var(--surface-2); border: 1px solid var(--border); border-radius: 12px; outline: none; }
+  input:focus { border-color: var(--accent); background: #fff; box-shadow: 0 0 0 4px rgba(20, 184, 166, .14); }
+  .btn { padding: 9px 15px; font-size: 14px; font-weight: 600; border: 1px solid transparent; border-radius: 999px; cursor: pointer; color: #fff; background: var(--accent-strong); transition: background .15s, color .15s, border-color .15s; white-space: nowrap; text-decoration: none; display: inline-block; }
+  .btn:hover { background: var(--accent-deep); }
+  .btn.block { width: 100%; padding: 14px; font-size: 16px; margin-top: 14px; }
+  .btn.ok { background: var(--ok-bg); color: var(--ok); border-color: #c4ead6; }
+  .btn.ok:hover { background: #d2f0e0; }
+  .btn.del { background: transparent; border-color: var(--border); color: var(--muted); padding: 9px 12px; }
+  .btn.del:hover { border-color: var(--danger); color: var(--danger); }
+  .btn.ghost { background: #fff; border-color: var(--border); color: var(--text); font-weight: 500; }
+  .btn.ghost:hover { border-color: var(--accent); color: var(--accent-deep); }
+  .error { color: var(--danger); font-size: 14px; margin-top: 12px; min-height: 18px; }
+
+  /* Panel */
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 24px; border-bottom: 1px solid var(--border); background: rgba(255, 255, 255, .9); backdrop-filter: blur(8px); position: sticky; top: 0; z-index: 2; flex-wrap: wrap; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand .logo { width: 44px; height: 44px; }
+  .brand b { font-family: var(--serif); font-weight: 400; font-size: 20px; }
+  .brand small { display: block; color: var(--muted); font-size: 12px; }
+  .top-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  main { max-width: 1200px; margin: 0 auto; padding: 26px 16px; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 24px; }
+  .stat { border-radius: 18px; padding: 18px 20px; border: 1px solid var(--border); background: var(--surface); }
+  .stat span { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .14em; }
+  .stat b { display: block; font-family: var(--serif); font-weight: 400; font-size: 36px; margin-top: 6px; }
+  .stat.w { background: var(--warn-bg); border-color: #f5e3c2; } .stat.w b { color: var(--warn); }
+  .stat.s { background: var(--ok-bg); border-color: #c9ecd9; } .stat.s b { color: var(--ok); }
+  .stat.c { background: var(--accent-soft); border-color: #c8ece4; } .stat.c b { color: var(--accent-deep); }
+  .stat.a { background: var(--blush); border-color: #f6d3db; } .stat.a b { color: var(--blush-strong); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); }
+  .panel h2 { font-family: var(--serif); font-weight: 400; font-size: 18px; padding: 14px 18px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+  .panel h2 .count { font-family: system-ui, sans-serif; background: var(--surface-2); color: var(--muted); padding: 2px 10px; border-radius: 99px; font-size: 12px; }
+  .row { display: flex; align-items: center; gap: 12px; padding: 14px 18px; border-bottom: 1px solid var(--border); }
+  .row:last-child { border-bottom: 0; }
+  .num { width: 36px; height: 36px; border-radius: 50%; background: var(--accent-soft); display: grid; place-items: center; font-weight: 600; color: var(--accent-deep); flex-shrink: 0; font-size: 14px; }
+  .serving-list .num { background: var(--ok-bg); color: var(--ok); }
+  .done-list .num { background: var(--blush); color: var(--blush-strong); }
+  .info { flex: 1; min-width: 0; }
+  .info b { display: block; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .info small { color: var(--muted); font-size: 12px; }
+  .actions { display: flex; gap: 6px; flex-shrink: 0; }
+  .empty { padding: 30px; text-align: center; color: var(--muted); font-size: 14px; font-style: italic; }
+  .done-list .row { opacity: .75; }
+  .section-gap { margin-top: 20px; }
+  @media (max-width: 860px) { .stats { grid-template-columns: repeat(2, 1fr); } .cols { grid-template-columns: 1fr; } }
+  @media (max-width: 480px) { .row { flex-wrap: wrap; } .actions { width: 100%; } .actions .btn { flex: 1; } .top { padding: 12px 16px; } }
+</style>
+</head>
+<body>
+
+<!-- Acceso -->
+<div id="loginView" class="login">
+  <form class="login-box" id="loginForm">
+    <div class="logo"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Noemy Studio"><defs><linearGradient id="nsBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f7f3"/><stop offset="1" stop-color="#fce8ec"/></linearGradient><linearGradient id="nsHair" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset=".55" stop-color="#14b8a6"/><stop offset="1" stop-color="#0d9488"/></linearGradient><clipPath id="nsClip"><circle cx="50" cy="50" r="50"/></clipPath></defs><circle cx="50" cy="50" r="50" fill="url(#nsBg)"/><g clip-path="url(#nsClip)"><path d="M47 22C42 24 39 30 39 36C39 38 38 40 36.5 42L32.5 48.5C32 49.5 33 50.5 34.5 50.5L36 50.8C35.6 52 35.8 53 36.6 53.4C35.8 54.2 35.9 55.6 37 56.2C37.5 57 37.4 58 38.2 59C38 61 38.6 63.5 40.5 64.5C43 65.5 46 65 47.5 64.5L48 76C46 82 38 88 28 92L20 104L62 104L62 26Z" fill="#115e59"/><path d="M47 22C50 14 60 10 70 13C82 17 88 30 85 42C83 50 88 56 87 64C86 72 80 76 82 84C84 92 80 98 76 104L50 104C56 96 58 88 57 80C56 72 58 66 58 60C58 50 54 42 52 34C51 29 49 25 47 22Z" fill="url(#nsHair)"/><path d="M49 20.5C43.5 21.5 40 26.5 40.5 31.5C44 27 50 24.8 57 26.5C55 22.5 52 20.5 49 20.5Z" fill="url(#nsHair)"/><path d="M60 16C73 18 80 29 78 41C76 51 82 59 80 69C79 78 75 86 77 97" fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round" opacity=".55"/><path d="M55 23C64 27 68 36 66.5 46C65 56 70 64 68 76C67 84 64 90 65 98" fill="none" stroke="#fff" stroke-width=".8" stroke-linecap="round" opacity=".4"/><path d="M40.2 41.2q2.2 1.5 4.6 .3" fill="none" stroke="#e6f7f3" stroke-width="1" stroke-linecap="round"/><path d="M22 26l1.2 3.3 3.3 1.2-3.3 1.2-1.2 3.3-1.2-3.3-3.3-1.2 3.3-1.2Z" fill="#f4a7b9"/></g></svg></div>
+    <h1>Noemy Studio</h1>
+    <p>Panel de administración</p>
+    <input type="password" id="password" placeholder="Contraseña" autocomplete="current-password" required>
+    <button class="btn block" type="submit">Entrar</button>
+    <div class="error" id="loginError"></div>
+  </form>
+</div>
+
+<!-- Panel -->
+<div id="panelView" class="hidden">
+  <div class="top">
+    <div class="brand">
+      <div class="logo"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Noemy Studio"><defs><linearGradient id="nsBg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e6f7f3"/><stop offset="1" stop-color="#fce8ec"/></linearGradient><linearGradient id="nsHair2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset=".55" stop-color="#14b8a6"/><stop offset="1" stop-color="#0d9488"/></linearGradient><clipPath id="nsClip2"><circle cx="50" cy="50" r="50"/></clipPath></defs><circle cx="50" cy="50" r="50" fill="url(#nsBg2)"/><g clip-path="url(#nsClip2)"><path d="M47 22C42 24 39 30 39 36C39 38 38 40 36.5 42L32.5 48.5C32 49.5 33 50.5 34.5 50.5L36 50.8C35.6 52 35.8 53 36.6 53.4C35.8 54.2 35.9 55.6 37 56.2C37.5 57 37.4 58 38.2 59C38 61 38.6 63.5 40.5 64.5C43 65.5 46 65 47.5 64.5L48 76C46 82 38 88 28 92L20 104L62 104L62 26Z" fill="#115e59"/><path d="M47 22C50 14 60 10 70 13C82 17 88 30 85 42C83 50 88 56 87 64C86 72 80 76 82 84C84 92 80 98 76 104L50 104C56 96 58 88 57 80C56 72 58 66 58 60C58 50 54 42 52 34C51 29 49 25 47 22Z" fill="url(#nsHair2)"/><path d="M49 20.5C43.5 21.5 40 26.5 40.5 31.5C44 27 50 24.8 57 26.5C55 22.5 52 20.5 49 20.5Z" fill="url(#nsHair2)"/><path d="M60 16C73 18 80 29 78 41C76 51 82 59 80 69C79 78 75 86 77 97" fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round" opacity=".55"/><path d="M55 23C64 27 68 36 66.5 46C65 56 70 64 68 76C67 84 64 90 65 98" fill="none" stroke="#fff" stroke-width=".8" stroke-linecap="round" opacity=".4"/><path d="M40.2 41.2q2.2 1.5 4.6 .3" fill="none" stroke="#e6f7f3" stroke-width="1" stroke-linecap="round"/><path d="M22 26l1.2 3.3 3.3 1.2-3.3 1.2-1.2 3.3-1.2-3.3-3.3-1.2 3.3-1.2Z" fill="#f4a7b9"/></g></svg></div>
+      <div><b>Noemy Studio</b><small>Administración de la lista</small></div>
+    </div>
+    <div class="top-actions">
+      <a class="btn ghost" href="/display.html" target="_blank">Pantalla TV ↗</a>
+      <a class="btn ghost" href="/" target="_blank">Página cliente ↗</a>
+      <button class="btn ghost" id="logoutBtn">Salir</button>
+    </div>
+  </div>
+
+  <main>
+    <div class="stats">
+      <div class="stat w"><span>En espera</span><b id="sWaiting">0</b></div>
+      <div class="stat s"><span>Atendiendo</span><b id="sServing">0</b></div>
+      <div class="stat c"><span>Completados</span><b id="sDone">0</b></div>
+      <div class="stat a"><span>Espera promedio</span><b id="sAvg">0 min</b></div>
+    </div>
+
+    <div class="cols">
+      <div class="panel">
+        <h2>En espera <span class="count" id="cWaiting">0</span></h2>
+        <div id="waitingList"></div>
+      </div>
+      <div>
+        <div class="panel serving-list">
+          <h2>Atendiendo <span class="count" id="cServing">0</span></h2>
+          <div id="servingList"></div>
+        </div>
+        <div class="panel section-gap done-list">
+          <h2>Completados <button class="btn ghost" id="clearBtn" style="padding:4px 12px;font-size:12px">Limpiar</button></h2>
+          <div id="doneList"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+  const KEY = 'noemy_admin_pw';
+  const $ = id => document.getElementById(id);
+  let password = null;
+  try { password = sessionStorage.getItem(KEY); } catch {}
+  let timer = null;
+
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const mins = ms => Math.max(0, Math.floor(ms / 60000));
+  const time = ts => new Date(ts).toLocaleTimeString('es', { hour: '2-digit', minute: '2-digit' });
+  const people = n => n + (n === 1 ? ' persona' : ' personas');
+
+  async function api(path, method = 'GET') {
+    const r = await fetch(path, { method, headers: { 'x-admin-password': password || '' } });
+    if (r.status === 401) { logout(); throw new Error('No autorizado'); }
+    return r.json();
+  }
+
+  function rowHtml(e, idx, kind) {
+    const now = Date.now();
+    let meta = people(e.partySize);
+    if (e.phone) meta += ' · ' + esc(e.phone);
+    if (kind === 'waiting') meta += ' · llegó ' + time(e.joinedAt) + ' (' + mins(now - e.joinedAt) + ' min)';
+    if (kind === 'serving') meta += ' · atendiendo hace ' + mins(now - e.servedAt) + ' min';
+    if (kind === 'done') meta += ' · esperó ' + mins(e.servedAt - e.joinedAt) + ' min';
+
+    let actions = '';
+    if (kind === 'waiting') actions = `<button class="btn" data-act="serve" data-id="${e.id}">Atender</button>`;
+    if (kind === 'serving') actions = `<button class="btn ok" data-act="complete" data-id="${e.id}">Completado</button>`;
+    actions += `<button class="btn del" data-act="delete" data-id="${e.id}" title="Eliminar">✕</button>`;
+
+    return `<div class="row">
+      <div class="num">${kind === 'waiting' ? idx + 1 : (kind === 'serving' ? '✦' : '✓')}</div>
+      <div class="info"><b>${esc(e.name)}</b><small>${meta}</small></div>
+      <div class="actions">${actions}</div>
+    </div>`;
+  }
+
+  function renderList(el, items, kind, emptyText) {
+    el.innerHTML = items.length ? items.map((e, i) => rowHtml(e, i, kind)).join('') : `<div class="empty">${emptyText}</div>`;
+  }
+
+  async function refresh() {
+    if (!password) return;
+    try {
+      const { queue, stats } = await api('/api/admin/queue');
+      const waiting = queue.filter(e => e.status === 'waiting');
+      const serving = queue.filter(e => e.status === 'serving');
+      const done = queue.filter(e => e.status === 'done').sort((a, b) => b.completedAt - a.completedAt);
+
+      $('sWaiting').textContent = stats.waiting;
+      $('sServing').textContent = stats.serving;
+      $('sDone').textContent = stats.completed;
+      $('sAvg').textContent = stats.avgWaitMinutes + ' min';
+      $('cWaiting').textContent = waiting.length;
+      $('cServing').textContent = serving.length;
+
+      renderList($('waitingList'), waiting, 'waiting', 'No hay nadie en espera');
+      renderList($('servingList'), serving, 'serving', 'Nadie en atención por ahora');
+      renderList($('doneList'), done, 'done', 'Aún no hay completados');
+    } catch (e) { /* reintenta en el próximo ciclo */ }
+  }
+
+  function showPanel() {
+    $('loginView').classList.add('hidden');
+    $('panelView').classList.remove('hidden');
+    refresh();
+    clearInterval(timer);
+    timer = setInterval(refresh, 3000);
+  }
+
+  function logout() {
+    password = null;
+    try { sessionStorage.removeItem(KEY); } catch {}
+    clearInterval(timer);
+    $('panelView').classList.add('hidden');
+    $('loginView').classList.remove('hidden');
+  }
+
+  $('loginForm').addEventListener('submit', async e => {
+    e.preventDefault();
+    $('loginError').textContent = '';
+    const pw = $('password').value;
+    const r = await fetch('/api/admin/login', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: pw }),
+    });
+    if (!r.ok) { $('loginError').textContent = 'Contraseña incorrecta'; return; }
+    password = pw;
+    try { sessionStorage.setItem(KEY, pw); } catch {}
+    $('password').value = '';
+    showPanel();
+  });
+
+  $('logoutBtn').addEventListener('click', logout);
+
+  document.addEventListener('click', async e => {
+    const b = e.target.closest('[data-act]');
+    if (!b) return;
+    const { act, id } = b.dataset;
+    if (act === 'delete' && !confirm('¿Eliminar a esta persona de la lista?')) return;
+    b.disabled = true;
+    try {
+      if (act === 'serve') await api(`/api/admin/${id}/serve`, 'POST');
+      if (act === 'complete') await api(`/api/admin/${id}/complete`, 'POST');
+      if (act === 'delete') await api(`/api/admin/${id}`, 'DELETE');
+    } catch {}
+    refresh();
+  });
+
+  $('clearBtn').addEventListener('click', async () => {
+    if (!confirm('¿Borrar todos los completados? (Las estadísticas de completados se reiniciarán)')) return;
+    await api('/api/admin/clear-completed', 'POST').catch(() => {});
+    refresh();
+  });
+
+  if (password) showPanel();
+</script>
+</body>
+</html>
